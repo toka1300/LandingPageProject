@@ -51,20 +51,16 @@
     <!-- Popup modal -->
     <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+        <div class="modal-content position-relative">
+          <button type="button" class="close close-modal border-0 rounded" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-header d-flex flex-column">
             <img src="images/Welcome.png" alt="Welcome image">
             <h5 class="modal-title" id="submitModalLabel">Welcome </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
           </div>
           <div class="modal-body" id="body">
             A confirmation email has been sent to your
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>

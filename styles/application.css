@@ -114,3 +114,13 @@ form div {
   height: 40px;
   width: 127.36px;
 }
+
+.close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.modal-backdrop {
+  background-color: #000000CC;
+}
