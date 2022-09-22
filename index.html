@@ -4,15 +4,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Landing Page Project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/application.css">
+    <link rel="stylesheet" href="styles/application.css">
   </head>
   <body>
-    <h1>This is a great landing page!</h1>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="images/LogoText.svg" alt="Socially Logo">
+          <h1>Get More From</h1>
+          <h1>Your <span class="text-pink">Content</span>.</h1>
+          <p>Social.Ly helps you optimize your brands' publications to reach a larger audience, integrating social content with your website.</p>
+        </div>
+
+        <div class="col-6 form-signup">
+          <div id="tag-limited">Limited Offer</div>
+          <h2>Sign up to get your free trial today!</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter your email">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="TermsCheck">
+              <label class="form-check-label chack-terms" for="TermsCheck">I agree to the <span class="text-underline">terms and conditions</span></label>
+            </div>
+            <button type="submit" class="btn-pink">Start My Free Trial</button>
+          </form>
+        </div>
+
+    </div>
+  </div>
 
 
+    <!-- Old Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- -----New Bootstrap -->
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
   </body>
 </html>
