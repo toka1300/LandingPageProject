@@ -1,9 +1,11 @@
-/* Fonts */
+/* ----------General Styles --------------*/
 p {
   font-size: 20px;
   color: #828691;
   width: 75%;
   line-height: 32px;
+  margin-bottom: 32px;
+  display: block;
 }
 
 body {
@@ -24,6 +26,8 @@ h2 {
   line-height: 30px;
   font-weight: 600;
 }
+
+/* ---------Utilities----------------- */
 
 .text-pink {
   color: #FD0272;
@@ -47,7 +51,6 @@ h2 {
   justify-content: center;
   min-height: 100vh;
 }
-
 
 #tag-limited {
   display: flex;
@@ -78,6 +81,7 @@ h2 {
   padding-bottom: 50px;
   padding-right: 30px;
   padding-left: 30px;
+  margin-bottom: 32px;
 }
 
 .btn-pink {
@@ -92,7 +96,6 @@ h2 {
   border: none;
 }
 
-
 form div {
   padding-bottom: 18px;
 }
@@ -103,6 +106,7 @@ form div {
 
 #logo-text {
   margin-bottom: 18px;
+  margin-top: 18px;
   height: 40px;
   width: 127.36px;
 }
