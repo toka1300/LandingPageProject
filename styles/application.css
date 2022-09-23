@@ -1,3 +1,7 @@
+@import "components/buttons.css";
+@import "components/modals.css";
+@import "components/forms.css";
+
 /* ----------General Styles --------------*/
 p {
   font-size: 20px;
@@ -29,6 +33,7 @@ h2 {
 
 /* ---------Utilities----------------- */
 
+/* Text */
 .text-pink {
   color: #FD0272;
 }
@@ -45,11 +50,14 @@ h2 {
   text-decoration: underline;
 }
 
+/* Spacing and flexbox */
+
 .container-main {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin-left: 32px;
 }
 
 #tag-limited {
@@ -66,61 +74,9 @@ h2 {
   font-weight: 600;
 }
 
-.form-signup {
-  border: 2px solid var(--unnamed-color-ecedf2);
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  border: 2px solid #ECEDF2;
-  border-radius: 24px;
-  opacity: 1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* align-content:space-around; */
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-bottom: 32px;
-}
-
-.btn-pink {
-  background-color: #FD0272;
-  border-radius: 12px;
-  opacity: 1;
-  width: 100%;
-  height: 54px;
-  color: #FFFFFF;
-  font-weight: 600;
-  margin-top: 14px;
-  border: none;
-}
-
-.btn-pink:hover {
-  background-color: #D10761;
-}
-
-form div {
-  padding-bottom: 18px;
-}
-
-.input-field {
-  border-radius: 12px;
-}
-
 #logo-text {
   margin-bottom: 18px;
   margin-top: 18px;
   height: 40px;
   width: 127.36px;
-}
-
-.close-modal {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-
-.modal-backdrop {
-  background-color: #000000CC;
 }

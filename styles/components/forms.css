@@ -1,0 +1,36 @@
+.form-check-input:checked {
+  background-color: #FD0272;
+  color: #FD0272;
+  border: none;
+  box-shadow: none;
+}
+
+.form-check-input {
+  box-shadow: none;
+  border: 2px solid #ecedf2;
+}
+
+form div {
+  padding-bottom: 18px;
+}
+
+.input-field {
+  border-radius: 12px;
+}
+
+.form-signup {
+  border: 2px solid var(--unnamed-color-ecedf2);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #ECEDF2;
+  border-radius: 24px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 32px;
+}

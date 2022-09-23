@@ -8,6 +8,7 @@ const body = document.getElementById("body");
 
 // Setting submission event variable
 const submission = document.getElementById("btn-submit");
+const formCheck = document.getElementById("btn-submit");
 
 submission.addEventListener("click", (event) => {
   Email = (emailInput.value);
